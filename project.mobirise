@@ -61,7 +61,7 @@
     "witsec-mailform": false,
     "witsec-white-label": false,
     "witsec-language": false,
-    "publishChangesOnly": false
+    "publishChangesOnly": true
   },
   "pages": {
     "index.html": {
