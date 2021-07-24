@@ -664,6 +664,11 @@ section.lazy-placeholder:after {
 .cid-rWBdbCJsP2 .navbar.collapsed.opened .dropdown-menu {
   top: 0;
 }
+@media (min-width: 992px) {
+  .cid-rWBdbCJsP2 .navbar.collapsed.opened:not(.navbar-short) .navbar-collapse {
+    max-height: 92.94285714vh;
+  }
+}
 .cid-rWBdbCJsP2 .navbar.collapsed .dropdown-menu {
   width: auto;
   padding: 1rem 0 1rem 0;
