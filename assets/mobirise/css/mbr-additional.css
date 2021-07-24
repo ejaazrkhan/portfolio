@@ -910,8 +910,8 @@ section.lazy-placeholder:after {
   color: #c1c1c1 !important;
 }
 .cid-rWBdd0tvEq {
-  background-image: url("file:///C:/Users/Aazad/AppData/Local/Mobirise.com/Mobirise/projects/project-2020-04-19_155448/assets/images/banner-black-2000x1000.png") !important;
-  z-index: auto !important;
+  background-image: url("../../../assets/images/banner-black-2000x1000.png");
+  z-index: 999 !important;
   background-position: right !important;
 }
 .cid-rWBdd0tvEq .mbr-text,
