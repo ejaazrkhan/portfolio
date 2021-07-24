@@ -1882,57 +1882,161 @@ section.lazy-placeholder:after {
 .cid-rWBdbCJsP2 .dropdown-item:hover {
   color: #c1c1c1 !important;
 }
-.cid-sE6KzyDs9V {
-  background-image: url("../../../assets/images/background2.jpg");
+.cid-sE6Oktq4vY {
+  padding-top: 60px;
+  padding-bottom: 0px;
+  background-color: #efefef;
 }
-.cid-sE6KzyDs9V .mbr-text,
-.cid-sE6KzyDs9V .typed-text,
-.cid-sE6KzyDs9V .mbr-section-text {
-  letter-spacing: 0.03rem;
+.cid-sE6Oktq4vY .newsletter-iframe {
+  width: 100%;
+  height: 600px;
 }
-.cid-sE6KzyDs9V .btn {
-  margin-left: 4px !important;
+.cid-sE6Rfh0V2Z {
+  padding-top: 150px;
+  padding-bottom: 75px;
+  background-color: #343351;
+  position: relative;
+  overflow: hidden;
 }
-.cid-sE6KzyDs9V .animated-element {
-  color: #ffbc00;
+.cid-sE6Rfh0V2Z .container {
+  max-width: 1400px;
 }
-.cid-sE6KzyDs9V .typed-cursor {
-  opacity: 1;
-  -webkit-animation: blink 0.7s infinite;
-  -moz-animation: blink 0.7s infinite;
-  animation: blink 0.7s infinite;
-  color: #ffbc00;
+.cid-sE6Rfh0V2Z .card-img2 span {
+  padding-top: 6px;
 }
-@keyframes blink {
-  0% {
-    opacity: 1;
-  }
-  50% {
-    opacity: 0;
-  }
-  100% {
-    opacity: 1;
-  }
+.cid-sE6Rfh0V2Z .soc-item a {
+  padding-top: 5px;
 }
-@-webkit-keyframes blink {
-  0% {
-    opacity: 1;
-  }
-  50% {
-    opacity: 0;
-  }
-  100% {
-    opacity: 1;
+.cid-sE6Rfh0V2Z .btn {
+  padding: 0.4rem 0.6rem!important;
+  margin: 0.5rem!important;
+  border-radius: 10px!important;
+  letter-spacing: 0px;
+}
+.cid-sE6Rfh0V2Z .btn .mbr-iconfont {
+  margin-top: 0.1rem;
+}
+.cid-sE6Rfh0V2Z .btn .mbr-iconfont.socicon {
+  margin-right: 0.8rem !important;
+  order: 0;
+}
+@media (max-width: 992px) {
+  .cid-sE6Rfh0V2Z .content > div:not(:last-child) {
+    margin-bottom: 2rem;
   }
 }
-@-moz-keyframes blink {
-  0% {
-    opacity: 1;
+.cid-sE6Rfh0V2Z svg {
+  position: absolute;
+  top: 2rem;
+  left: 50%;
+  transform: translate(-50%) scale(2, 1.6) rotate(180deg);
+}
+.cid-sE6Rfh0V2Z #e2_shape {
+  fill: #ffffff !important;
+}
+.cid-sE6Rfh0V2Z .quote {
+  background-color: rgba(0, 0, 0, 0.1);
+  border-radius: 10px;
+  padding: 1rem;
+  position: relative;
+  margin-bottom: 1.8rem;
+  color: #ffffff;
+}
+.cid-sE6Rfh0V2Z .quote::after {
+  top: 100%;
+  left: 36px;
+  content: " ";
+  position: absolute;
+  width: 0;
+  height: 0;
+  border-style: solid;
+  border-width: 20px 20px 0 0;
+  border-color: rgba(0, 0, 0, 0.1) transparent transparent;
+}
+.cid-sE6Rfh0V2Z .card-img2 {
+  min-width: 45px;
+  height: 45px;
+  background: #5580ff;
+  border-radius: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.cid-sE6Rfh0V2Z .card-img {
+  width: auto;
+}
+.cid-sE6Rfh0V2Z .soc-item {
+  width: 45px;
+  height: 45px;
+  background: #ffffff;
+  margin-bottom: 1rem;
+  border-radius: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-right: 1rem;
+}
+.cid-sE6Rfh0V2Z .soc-item span {
+  font-size: 1.4rem;
+}
+.cid-sE6Rfh0V2Z .soc-item:hover span {
+  color: #ffbc00 !important;
+}
+.cid-sE6Rfh0V2Z .item {
+  display: flex;
+  align-items: center;
+  margin-bottom: 1rem;
+}
+.cid-sE6Rfh0V2Z .item h4 {
+  padding-left: 10px;
+  margin: 0;
+}
+.cid-sE6Rfh0V2Z .media-wrap {
+  margin-bottom: 1rem;
+}
+.cid-sE6Rfh0V2Z .mbr-iconfont-logo {
+  font-size: 7.5rem;
+  color: #f36;
+}
+.cid-sE6Rfh0V2Z img {
+  height: 4rem;
+}
+@media (max-width: 576px) {
+  .cid-sE6Rfh0V2Z .item {
+    justify-content: center;
   }
-  50% {
-    opacity: 0;
+  .cid-sE6Rfh0V2Z .quote::after {
+    left: 60px;
   }
-  100% {
-    opacity: 1;
+}
+.cid-sE6Rfh0V2Z .social-list {
+  padding-left: 0;
+  margin-bottom: 0;
+  list-style: none;
+  display: flex;
+  flex-wrap: wrap;
+}
+@media (max-width: 576px) {
+  .cid-sE6Rfh0V2Z .social-list {
+    -webkit-justify-content: center;
+    justify-content: center;
   }
+}
+.cid-sE6Rfh0V2Z .text1 {
+  color: #ffffff;
+}
+.cid-sE6Rfh0V2Z .item-title {
+  color: #ffffff;
+}
+.cid-sE6Rfh0V2Z H5 {
+  color: #ffffff;
+}
+.cid-sE6Rfh0V2Z .theme {
+  color: #ffffff;
+}
+.cid-sE6Rfh0V2Z .copyright > p {
+  color: #ff3366;
+}
+.cid-sE6Rfh0V2Z .text2 {
+  color: #ffffff;
 }
