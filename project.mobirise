@@ -1,6 +1,6 @@
 {
   "settings": {
-    "name": "PortFolio M4 Ejaaz",
+    "name": "Beginner Developer",
     "currentPage": "index.html",
     "theme": {
       "name": "portfoliom41",
@@ -53,7 +53,7 @@
     "favicon": "@PROJECT_PATH@/assets/images/xeucfbpp-400x400-128x128.png",
     "robotsSwitcher": false,
     "sitemapSwitcher": false,
-    "sitemapSwitcherAuto": false,
+    "sitemapSwitcherAuto": "on",
     "siteUrl": false,
     "cookiesAlert": false,
     "gdpr": false,
@@ -61,7 +61,16 @@
     "witsec-mailform": false,
     "witsec-white-label": false,
     "witsec-language": false,
-    "publishChangesOnly": true
+    "publishChangesOnly": true,
+    "robotsText": "User-agent: *\r\nDisallow: /cgi-bin\r\n",
+    "PWA": {
+      "enabled": true,
+      "name": "Beginner Developer",
+      "icon": "@PROJECT_PATH@/assets/images/logo-bg-small-512x512.png",
+      "themeColor": "#ffbc00"
+    },
+    "mbrsiteDomain": "ejaaz-portfolia",
+    "pwa-switcher": true
   },
   "pages": {
     "index.html": {
